@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/cate1/hello-world/"/>
+      <url>/cate1/hello-world/</url>
+      
+        <content type="html"><![CDATA[<blockquote><footer><strong>原文来源： Johann.</strong><cite><a href="https://blog.csdn.net/yhzhaohy/article/details/91411638" target="_blank" rel="noopener">HikariCP连接池</a></cite></footer></blockquote>  <br><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><a id="more"></a><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> cate1 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> start </tag>
+            
+            <tag> ams </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>nvm、npm、nodejs的关系</title>
+      <link href="/cate2/nvm%E3%80%81npm%E3%80%81nodejs%E7%9A%84%E5%85%B3%E7%B3%BB/"/>
+      <url>/cate2/nvm%E3%80%81npm%E3%80%81nodejs%E7%9A%84%E5%85%B3%E7%B3%BB/</url>
+      
+        <content type="html"><![CDATA[<blockquote><footer><strong>原文来源： Johann.</strong><cite><a href="https://blog.csdn.net/yhzhaohy/article/details/90750824" target="_blank" rel="noopener">nvm、npm、nodejs的关系</a></cite></footer></blockquote> <br><a>text url [cate1/hello-world] [hello-world]</a><br><p>简单介绍node，nvm，npm之前的联系以及区别。</p><a id="more"></a><h2 id="区别和联系"><a href="#区别和联系" class="headerlink" title="区别和联系"></a>区别和联系</h2><h3 id="nvm"><a href="#nvm" class="headerlink" title="nvm"></a>nvm</h3><p>nvm是nodeJs版本管理工具,用于管理nodejs版本和npm版本。</p><h3 id="node"><a href="#node" class="headerlink" title="node"></a>node</h3><p>node.js是javascript的一种运行环境，是对Google V8引擎进行的封装。是一个服务器端的javascript的解释器。<br><br>包含关系，nodejs中含有npm，比如说你安装好nodejs，你打开cmd输入npm -v会发现npm的版本号，说明npm已经安装好。</p><h3 id="npm"><a href="#npm" class="headerlink" title="npm"></a>npm</h3><p>npm是随同nodeJs一起安装的包管理工具，npm管理对应nodeJs的第三方插件。</p><h3 id="场景使用"><a href="#场景使用" class="headerlink" title="场景使用"></a>场景使用</h3><p>允许用户从npm服务器下载别人编写好的第三方包到本地使用（例如淘宝服务器）<br><br>允许用户将自己编写的包上传到NPM服务器供别人使(例如自己搭建的npm服务器)</p><h3 id="关系图"><a href="#关系图" class="headerlink" title="关系图"></a>关系图</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">nvm、nodejs、npm的关系：</span><br><span class="line">(1)nvm管理构建nodejs和对应的npm,npm管理对应nodejs的第三方插件</span><br><span class="line">(2)一个reactNative项目只包含一个nodejs和npm,npm和nodejs是配套关系， 一对一的关系。</span><br></pre></td></tr></table></figure><img src="/cate2/nvm、npm、nodejs的关系/node-nvm-npm.png" title="node-nvm-npm关系图">]]></content>
+      
+      
+      <categories>
+          
+          <category> cate2 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> start </tag>
+            
+            <tag> list </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
